@@ -1,0 +1,65 @@
+*{
+   margin:0;
+   padding:0;
+}
+.header{
+    background-image:url("starbucks1.jpg");
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    font-family:monospace;
+}
+.loginform{
+    border:3px solid;
+    border-radius:10px;
+    width:320px;
+    height:420px;
+    
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding:70px 30px;
+}
+.cafe{
+    background-image:url("starbucks1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    width:35%;
+    height:22%;
+
+    position:absolute;
+    top:-45px;
+    left:calc(37% - 17px);
+}
+h1{
+    color:lightgray;
+    padding-top: 50px;
+    text-decoration:underline;
+    font-style:italic;
+}
+h4{
+    color:yellow;
+    padding-top:20px;
+    font-size:20px;
+}
+input[type="submit"]:hover{
+    background-color:green;
+    cursor:pointer;  
+}
+input[value="Login"]{
+    font-size:20px;
+}
+a{
+    color:blue;
+    line-height:30px;
+    font-size:20px;
+}
+a:hover{
+    color:darkgreen;
+    font-size:25px;
+}
+marquee{
+    color:green;
+}
